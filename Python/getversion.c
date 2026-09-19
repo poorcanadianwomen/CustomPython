@@ -20,7 +20,7 @@ void _Py_InitVersion(void)
     const char *buildinfo_format = "%.80s (%.80s) %.80s";
 #endif
     PyOS_snprintf(version, sizeof(version), buildinfo_format,
-                  PY_VERSION, Py_GetBuildInfo(), Py_GetCompiler());
+      PY_VERSION, Py_GetBuildInfo(), Py_GetCompiler());
 }
 
 const char *
